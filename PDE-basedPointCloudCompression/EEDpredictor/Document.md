@@ -89,9 +89,9 @@ void freetensorcoffesforneighboursweight();
 
 - **Description**:   These functions analyze the neighor occupancy for each point, which will be later used to evaluate the expression for points. Due to point clouds' occupancy uncertainty, there are $2^{18}$ occupancy situations. So, I divide the complex situations into several small situations. I analyze only 4 points in a local region at a time.
 
-![未命名1703391268](C:\Users\admin\Desktop\CODE\PDE-basedPointCloudCompression\EEDpredictor\未命名1703391268.png)
+![未命名1703391268](未命名1703391268.png)
 
-![未命名1703391216](C:\Users\admin\Desktop\CODE\PDE-basedPointCloudCompression\EEDpredictor\未命名1703391216.png)
+![未命名1703391216](未命名1703391216.png)
 
 - **Parameters**：
   - `distance`: Distance parameter for weight calculation.
